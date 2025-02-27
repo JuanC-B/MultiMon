@@ -11,3 +11,6 @@ saved/
 *.orig
 *.sln
 *.xlsx
+/MultiShot/Config
+/MultiShot/Plugins
+/MultiShot/Plugins
