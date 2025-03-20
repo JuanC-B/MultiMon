@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class MultiShot : ModuleRules
+public class TutankamonExp : ModuleRules
 {
-	public MultiShot(ReadOnlyTargetRules Target) : base(Target)
+	public TutankamonExp(ReadOnlyTargetRules Target) : base(Target)
     {
 
         //SetupIrisSupport(Target);

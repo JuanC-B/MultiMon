@@ -18,7 +18,7 @@
 /**
  * 
  */
-class MULTISHOT_API EmptyClassForProject
+class TUTANKAMONEXP_API EmptyClassForProject
 {
 public:
 	EmptyClassForProject();

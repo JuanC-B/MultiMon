@@ -3,15 +3,15 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class MultiShotEditorTarget : TargetRules
+public class TutankamonExpEditorTarget : TargetRules
 {
-	public MultiShotEditorTarget(TargetInfo Target) : base(Target)
+	public TutankamonExpEditorTarget(TargetInfo Target) : base(Target)
 	{
         DefaultBuildSettings = BuildSettingsVersion.Latest; // V5
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
         Type = TargetType.Editor;
-        ExtraModuleNames.AddRange(new string[] { "MultiShot" });
+        ExtraModuleNames.AddRange(new string[] { "TutankamonExp" });
 		//bUseUnityBuild = false;
 		//bUsePCHFiles = false;
     }
@@ -26,6 +26,6 @@ public class MultiShotEditorTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "MultiShot" } );
+		OutExtraModuleNames.AddRange( new string[] { "TutankamonExp" } );
 	}*/
 }

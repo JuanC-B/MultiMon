@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "MultiShot",
+			"Name": "TutankamonExp",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

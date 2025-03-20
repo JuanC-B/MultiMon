@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class MultiShotTarget : TargetRules
+public class TutankamonExpTarget : TargetRules
 {
-	public MultiShotTarget(TargetInfo Target) : base(Target)
+	public TutankamonExpTarget(TargetInfo Target) : base(Target)
 	{
 
         DefaultBuildSettings = BuildSettingsVersion.Latest;
@@ -16,7 +16,7 @@ public class MultiShotTarget : TargetRules
 
         //bUseLoggingInShipping = true;
         Type = TargetType.Game;
-        ExtraModuleNames.AddRange(new string[] { "MultiShot" });
+        ExtraModuleNames.AddRange(new string[] { "TutankamonExp" });
         //bUsePCHFiles = false;
         //bUseUnityBuild = false;
 
@@ -59,6 +59,6 @@ public class MultiShotTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "MultiShot" } );
+		OutExtraModuleNames.AddRange( new string[] { "TutankamonExp" } );
 	}*/
 }
